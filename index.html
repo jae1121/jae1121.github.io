@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pennsylvania Voting & Elections</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo"><img src="https://www.pa.gov/content/dam/copapwp-pagov/en/global/images/CoPA%20Logo%20-%20Horizontal%20Lockup%201.svg" alt="logo"></div>
+           
+            <!-- Top navigation for translate option and search. I only included the search bar for aesthetic purposes-->
+            <div class="top-nav">
+                <a class="translate-btn" href="https://www.pa.gov/en/governor.html#">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3687/3687074.png" alt="Translate Icon">
+                    Translate
+                </a>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button type="button"><img src="https://cdn-icons-png.flaticon.com/128/16739/16739373.png" alt="Search Icon"></button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main navigation menu for site navigation -->
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="https://www.pa.gov/en/services.html">Services</a></li>
+                <li><a href="https://www.pa.gov/en/agencies.html">Agency Directory</a></li>
+                <li><a href="https://www.pa.gov/en/governor.html">Your Government</a></li>
+                <li><a href="https://visitpa.com/">Visit PA</a></li>
+                <li><a href="https://pacast.com/">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Main content of the website -->
+    <main>
+        <!-- Hero section with introductory text and image -->
+        <section class="hero">
+            <div class="intro-text">
+                <h1>Pennsylvania Voting & Elections</h1>
+                <p>Welcome to Pennsylvania's official voter information website. This site is a comprehensive voting resource for all eligible citizens in Pennsylvania.</p>
+                <h2>General Election: Tuesday, November 5, 2024</h2>
+                <p>The Elections Division is responsible for all parts of the administration of an election, including maintaining voter roles and registration, approving requests for mail-in and absentee ballots, and more.</p>
+            </div>
+            <div class="intro-image">
+                <img src="https://s7d9.scene7.com/is/image/statepa/DOS-Hero-1200x600-VoteButton?ts=1716990749636&dpr=off" alt="Election Image">
+            </div>
+        </section>
+
+        <!-- Section for providing voting-related information -->
+        <section class="voting-info">
+            <h2>Voting Information</h2>
+            <div class="info-grid">
+                <!-- Grid of information cards related to voting. These are used as a sort of navigation buttons since I had to fit everything into a single html page-->
+                <div class="info-box">
+                    <a href="#upcoming">
+                        <img src="https://www.alleghenycounty.us/files/assets/county/v/1/government/elections/images/elections-calendar-voting-pins.jpeg?dimension=largethumbnail&w=380&h=189" alt="Upcoming Elections">
+                        <h3>Upcoming Elections</h3>
+                    </a>
+                </div>
+                <div class="info-box">
+                    <a href="#voter">
+                        <img src="https://www.alleghenycounty.us/files/assets/county/v/1/government/elections/images/voter.jpeg?dimension=largethumbnail&w=380&h=189" alt="Voter Application">
+                        <h3>Voter Application</h3>
+                    </a>
+                </div>
+                <div class="info-box">
+                    <a href="#complaint">
+                        <img src="https://www.alleghenycounty.us/files/assets/county/v/1/government/elections/images/resources-icon.jpg?dimension=largethumbnail&w=380&h=189" alt="File an Election Complaint">
+                        <h3>File an Election Complaint</h3>
+                    </a>
+                </div>
+                <div class="info-box">
+                    <a href="#accessible">
+                        <img src="https://pva.org/wp-content/uploads/2021/09/vote_social-distancesmaller.jpg" alt="Accessible Voting">
+                        <h3>Accessible Voting</h3>
+                    </a>
+                </div>
+                <div class="info-box">
+                    <a href="#polling">
+                        <img src="https://www.alleghenycounty.us/files/assets/county/v/1/government/elections/images/ballot-drop-boxes_1.jpg?dimension=largethumbnail&w=380&h=189" alt="Voting at a Polling Place">
+                        <h3>Voting at a Polling Place</h3>
+                    </a>
+                </div>
+                <div class="info-box">
+                    <a href="#ballot">
+                        <img src="https://www.alleghenycounty.us/files/assets/county/v/1/government/elections/images/election-mail-mail-in-ballot.jpeg?dimension=largethumbnail&w=380&h=189" alt="Mail-in and Absentee Ballot">
+                        <h3>Mail-in and Absentee Ballot</h3>
+                    </a>
+                </div>
+            </div>
+        </section>          
+    </main>
+
+    <!-- Upcoming Elections section with key dates and links -->
+    <div class = "upcoming" id = "upcoming">
+        <h4>Upcoming Elections</h4>
+        <h5>Nov. 5, 2024, is the General Election</h5>
+        <ul>
+            <li><a href="https://www.pa.gov/en/services/vote/find-your-local-polling-place.html">Polls</a> are open on election day from 7 A.M. - 8 P.M.</li>
+            <li>Last day to <a href = "https://www.pa.gov/en/services/vote/register-to-vote.html">register to vote</a>: Oct. 21, 2024</li>
+            <li>Last day to <a href="https://www.pa.gov/en/services/vote/apply-for-a-mail-in-or-absentee-ballot.html">request a mail-in or absentee ballot</a>: Oct. 29, 2024</li>
+            <li><a href="https://www.pa.gov/en/agencies/vote/elections/types-of-elections.html">Learn about General Elections</a></li>
+          </ul>
+    </div>
+    <br>
+
+    <!-- Voter Application section -->
+    <div class = "voter" id = "voter">
+        <h4>Voter Application</h4>
+        <h5>Registering to Vote</h5>
+        <p> To vote in Pennsylvania, you must first register to vote at least 15 days before the election.
+            You can register to vote online, by mail, or at a number of government agencies, including Pennsylvania 
+            Department of Transportation (PennDOT) Photo License and Driver's License Centers.
+            
+            Voter registration requirements
+            How to register to vote
+            Information for first-time voters, including voter ID</p>
+
+
+            <ul>
+                <li><a href="https://www.pa.gov/en/agencies/vote/voter-registration/voter-registration-requirements.html">Voter registration requirements</a></li>
+                <li><a href = "https://www.pa.gov/en/services/vote/register-to-vote.html">How to register to vote</a></li>
+                <li><a href="https://www.pa.gov/en/agencies/vote/voter-support/new-voters.html">Information for first-time voters, including voter ID</a></li>
+              </ul>
+    </div>
+    <br>
+
+    <!-- File a Complaint section -->
+    <div class = "complaint" id = "complaint">
+        <h4>File a Complaint</h4>
+        <h5>How to File an Election Complaint</h5>
+        <p> First, report polling place issues to the Judge of Elections at your polling place before you leave.
+            If your issue is not resolved by the Judge of Elections, report the issue to your county election office by completing our online form or by downloading and completing the 
+            HAVA complaint form if you believe your voting rights may have been violated.</p>
+    </div>
+    <br>
+
+    <div class = "accessible" id = "accessible">
+        <h4>Accessible Voting</h4>
+        <h5>Is there an accessible voting system at my polling place?</h5>
+        <p> Every polling place in Pennsylvania must have at least one accessible voting system. Sometimes this is the general voting system used by all voters. It may be a separate system with features such as audio, tactile keys, and other assistive technology.
+            Look up the accessible voting system in your county
+            Find your polling place to see if it is accessible
+            Contact your county election office</p>
+    </div>
+    <br>
+
+    <div class = "polling" id = "polling">
+        <h4>Voting at a Polling Place</h4>
+        <h5>Know What to Expect</h5>
+        <p> Here is what to expect when you vote in person at your polling place on Election Day.
+        Polls are open from 7 a.m. to 8 p.m. on Election Day. Remember, if you are in line by 8 p.m., you can vote.
+        When you arrive, you will check in with the poll workers.
+        Then, you will either hand mark a paper ballot or cast your vote using a machine called a ballot marking device. 
+        Find a video demo of your county's voting system so you can be prepared.</p>
+    </div>
+    <br>
+
+    <div class = "ballot" id = "ballot">
+        <h4>Mail-in and Absentee Ballot</h4>
+        <h5>In Pennsylvania, registered voters can request either a no-excuse mail-in ballot or an absentee ballot.</h5>
+        <ul>
+            <li> Mail-in ballot: Any registered voter may apply to vote by mail in the next election. You do not have to provide a reason for why you want to vote by mail ballot.</li>
+            <li>Absentee ballot: If you will be out of your municipality on Election Day or if you have a disability or illness that prevents you from going to your polling place on Election Day, you can request this ballot type, which requires you to provide a reason for why you want to vote by mail ballot.</li>
+        </ul>
+    </div>
+    <br>
+
+
+
+    <!-- Additional section for more details about elections -->
+    <div class="more" id="more">
+        <h2>About Elections</h2>
+        <a href="https://www.pa.gov/en/agencies/vote/elections.html">Learn more about Pennsylvania elections</a>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://www.pa.gov/content/dam/copapwp-pagov/en/vote/images/card-group/ElectionSecurity-1200x675.png" alt="Election Security Image">
+                <div class="card-content">
+                    <span class="category">Elections</span>
+                    <h3>Election Security</h3>
+                    <p>Multiple security measures are in place to ensure that our elections are safe and accessible for all eligible Pennsylvania voters.</p>
+                    <a href="https://www.pa.gov/en/agencies/vote/elections/election-security.html">Learn more about how we protect our elections &rarr;</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.pa.gov/content/dam/copapwp-pagov/en/vote/images/card-group/ElectionResults-1200x675.png" alt="Election Results Image">
+                <div class="card-content">
+                    <span class="category">Elections</span>
+                    <h3>Election Results</h3>
+                    <p>Pennsylvania voters can be confident that their votes are accurately counted and verified.</p>
+                    <a href="https://www.pa.gov/en/agencies/vote/elections/election-results.html">Find election results &rarr;</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.pa.gov/content/dam/copapwp-pagov/en/vote/images/card-group/FactChecking-1200x675.png" alt="Fact-Checking Election Claims Image">
+                <div class="card-content">
+                    <span class="category">Elections</span>
+                    <h3>Fact-Checking Election Claims</h3>
+                    <p>Get accurate, reliable information about Pennsylvania's elections.</p>
+                    <a href="https://www.pa.gov/en/agencies/vote/elections/fact-checking-pa-related-election-claims.html">Check election claims &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Contact Us section with different communication methods -->
+    <div class="contact-us">
+        <h2>Contact Us</h2>
+        <div class="contact-options">
+            <div class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Contact by Email Icon">
+                <a href="mailto:ra-voterreg@pa.gov">Contact by Email &rarr;</a>
+            </div>
+            <div class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/128/7794/7794620.png" alt="Contact by Phone Icon">
+                <a href="tel:1-877-868-3772">Contact by Phone &rarr;</a>
+            </div>
+            <div class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/128/13807/13807705.png" alt="County Election Offices Icon">
+                <a href="https://www.pa.gov/en/agencies/vote/contact-us/contact-your-election-officials.html">County Election Offices &rarr;</a>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- A Simple footer with links to socials -->
+    <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-logo-social">  
+            <div class="footer-logo">
+                <img src="https://www.pa.gov/content/dam/copapwp-pagov/en/global/images/CoPA%20Logo%20-%20Horizontal%20Lockup%201.svg" alt="Logo">
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/PADepartmentofState/"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+                <a href="https://twitter.com/PAStateDept"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/pastatedept/"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+            </div>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.pa.gov/en/accessibility-policy.html">Accessibility</a>
+                <a href="https://www.pa.gov/en/privacy-policy.html">Privacy & Disclaimer</a>
+                <a href="https://www.pa.gov/en/security-policy.html">Security</a>
+            </div>
+            
+            <div class="footer-back-to-top">
+                <a href="#top">Return to Top &uarr;</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
